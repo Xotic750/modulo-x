@@ -1,8 +1,8 @@
 {
-  "name": "module-x",
+  "name": "modulo-x",
   "version": "1.0.0",
   "description": "modulo module.",
-  "homepage": "https://github.com/Xotic750/module-x",
+  "homepage": "https://github.com/Xotic750/modulo-x",
   "author": {
     "name": "Graham Fairweather",
     "email": "xotic750@gmail.com"
@@ -22,10 +22,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Xotic750/module-x.git"
+    "url": "https://github.com/Xotic750/modulo-x.git"
   },
   "bugs": {
-    "url": "https://github.com/Xotic750/module-x/issues"
+    "url": "https://github.com/Xotic750/modulo-x/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -69,8 +69,8 @@
     "lint": "eslint *.js tests/spec/*.js",
     "security": "nsp check",
     "test": "jasmine-node --matchall tests/spec/",
-    "browserify": "browserify -p browserify-derequire -e index.js -o lib/module-x.js -u 'crypto' -s returnExports",
-    "uglify": "uglifyjs lib/module-x.js -o lib/module-x.min.js --support-ie8 --compress --keep-fnames --mangle --beautify ascii_only=true,beautify=false --source-map filename=lib/module-x.map",
+    "browserify": "browserify -p browserify-derequire -e index.js -o lib/modulo-x.js -u 'crypto' -s returnExports",
+    "uglify": "uglifyjs lib/modulo-x.js -o lib/modulo-x.min.js --support-ie8 --compress --keep-fnames --mangle --beautify ascii_only=true,beautify=false --source-map filename=lib/modulo-x.map",
     "precommit": "npm run build:all",
     "prepush": "npm run build:all"
   }

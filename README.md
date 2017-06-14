@@ -1,25 +1,25 @@
-<a name="module_module-x"></a>
+<a name="module_modulo-x"></a>
 
-## module-x
-<a href="https://travis-ci.org/Xotic750/module-x"
+## modulo-x
+<a href="https://travis-ci.org/Xotic750/modulo-x"
 title="Travis status">
 <img
-src="https://travis-ci.org/Xotic750/module-x.svg?branch=master"
+src="https://travis-ci.org/Xotic750/modulo-x.svg?branch=master"
 alt="Travis status" height="18">
 </a>
-<a href="https://david-dm.org/Xotic750/module-x"
+<a href="https://david-dm.org/Xotic750/modulo-x"
 title="Dependency status">
-<img src="https://david-dm.org/Xotic750/module-x.svg"
+<img src="https://david-dm.org/Xotic750/modulo-x.svg"
 alt="Dependency status" height="18"/>
 </a>
 <a
-href="https://david-dm.org/Xotic750/module-x#info=devDependencies"
+href="https://david-dm.org/Xotic750/modulo-x#info=devDependencies"
 title="devDependency status">
-<img src="https://david-dm.org/Xotic750/module-x/dev-status.svg"
+<img src="https://david-dm.org/Xotic750/modulo-x/dev-status.svg"
 alt="devDependency status" height="18"/>
 </a>
-<a href="https://badge.fury.io/js/module-x" title="npm version">
-<img src="https://badge.fury.io/js/module-x.svg"
+<a href="https://badge.fury.io/js/modulo-x" title="npm version">
+<img src="https://badge.fury.io/js/modulo-x.svg"
 alt="npm version" height="18">
 </a>
 
@@ -31,7 +31,7 @@ Requires ES3 or above.
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
-<a name="exp_module_module-x--module.exports"></a>
+<a name="exp_module_modulo-x--module.exports"></a>
 
 ### `module.exports` ⇒ <code>number</code> ⏏
 The notation “x modulo y” (y must be finite and nonzero) computes a value k

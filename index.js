@@ -1,24 +1,24 @@
 /**
  * @file
- * <a href="https://travis-ci.org/Xotic750/module-x"
+ * <a href="https://travis-ci.org/Xotic750/modulo-x"
  * title="Travis status">
  * <img
- * src="https://travis-ci.org/Xotic750/module-x.svg?branch=master"
+ * src="https://travis-ci.org/Xotic750/modulo-x.svg?branch=master"
  * alt="Travis status" height="18">
  * </a>
- * <a href="https://david-dm.org/Xotic750/module-x"
+ * <a href="https://david-dm.org/Xotic750/modulo-x"
  * title="Dependency status">
- * <img src="https://david-dm.org/Xotic750/module-x.svg"
+ * <img src="https://david-dm.org/Xotic750/modulo-x.svg"
  * alt="Dependency status" height="18"/>
  * </a>
  * <a
- * href="https://david-dm.org/Xotic750/module-x#info=devDependencies"
+ * href="https://david-dm.org/Xotic750/modulo-x#info=devDependencies"
  * title="devDependency status">
- * <img src="https://david-dm.org/Xotic750/module-x/dev-status.svg"
+ * <img src="https://david-dm.org/Xotic750/modulo-x/dev-status.svg"
  * alt="devDependency status" height="18"/>
  * </a>
- * <a href="https://badge.fury.io/js/module-x" title="npm version">
- * <img src="https://badge.fury.io/js/module-x.svg"
+ * <a href="https://badge.fury.io/js/modulo-x" title="npm version">
+ * <img src="https://badge.fury.io/js/modulo-x.svg"
  * alt="npm version" height="18">
  * </a>
  *
@@ -30,7 +30,7 @@
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
- * @module module-x
+ * @module modulo-x
  */
 
 'use strict';
