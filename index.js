@@ -53,6 +53,6 @@ var modulo = function (dividend, divisor) {
  * @example
  * var modulo = require('modulo-x');
  * modulo(1, 0x1000000); // 1
- * modulo(-1, 0x1000000); // 1
+ * modulo(-1, 0x1000000); // 16777215 (2^24-1)
  */
 module.exports = modulo;
