@@ -1,33 +1,29 @@
-<a name="module_modulo-x"></a>
-
-## modulo-x
 <a href="https://travis-ci.org/Xotic750/modulo-x"
-title="Travis status">
+   title="Travis status">
 <img
-src="https://travis-ci.org/Xotic750/modulo-x.svg?branch=master"
-alt="Travis status" height="18">
+   src="https://travis-ci.org/Xotic750/modulo-x.svg?branch=master"
+   alt="Travis status" height="18"/>
 </a>
 <a href="https://david-dm.org/Xotic750/modulo-x"
-title="Dependency status">
+   title="Dependency status">
 <img src="https://david-dm.org/Xotic750/modulo-x.svg"
-alt="Dependency status" height="18"/>
+   alt="Dependency status" height="18"/>
 </a>
-<a
-href="https://david-dm.org/Xotic750/modulo-x#info=devDependencies"
-title="devDependency status">
+<a href="https://david-dm.org/Xotic750/modulo-x#info=devDependencies"
+   title="devDependency status">
 <img src="https://david-dm.org/Xotic750/modulo-x/dev-status.svg"
-alt="devDependency status" height="18"/>
+   alt="devDependency status" height="18"/>
 </a>
 <a href="https://badge.fury.io/js/modulo-x" title="npm version">
 <img src="https://badge.fury.io/js/modulo-x.svg"
-alt="npm version" height="18">
+   alt="npm version" height="18"/>
 </a>
+<a name="module_modulo-x"></a>
 
-modulo module.
+## modulo-x
+modulo - floored division implementation.
 
-Requires ES3 or above.
-
-**Version**: 1.0.0  
+**Version**: 1.1.0  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
@@ -37,6 +33,11 @@ Requires ES3 or above.
 The notation “x modulo y” (y must be finite and nonzero) computes a value k
 of the same sign as y (or zero) such that abs(k) < abs(y) and x-k = q × y
 for some integer q.
+
+Donald Knuth described floored division where the quotient is defined by
+the floor function q = ⌊a/n⌋ and thus according to equation the remainder
+would have the same sign as the divisor. Due to the floor function, the
+quotient is always rounded downwards, even if it is already negative.
 
 **Kind**: Exported member  
 **Returns**: <code>number</code> - The  integer remainder.  
