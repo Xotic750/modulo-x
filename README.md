@@ -23,13 +23,13 @@
 ## modulo-x
 modulo - floored division implementation.
 
-**Version**: 1.1.0  
+**Version**: 1.1.1  
 **Author**: Xotic750 <Xotic750@gmail.com>  
 **License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
 **Copyright**: Xotic750  
 <a name="exp_module_modulo-x--module.exports"></a>
 
-### `module.exports` ⇒ <code>number</code> ⏏
+### `module.exports(dividend, divisor)` ⇒ <code>number</code> ⏏
 The notation “x modulo y” (y must be finite and nonzero) computes a value k
 of the same sign as y (or zero) such that abs(k) < abs(y) and x-k = q × y
 for some integer q.
@@ -39,8 +39,8 @@ the floor function q = ⌊a/n⌋ and thus according to equation the remainder
 would have the same sign as the divisor. Due to the floor function, the
 quotient is always rounded downwards, even if it is already negative.
 
-**Kind**: Exported member  
-**Returns**: <code>number</code> - The  integer remainder.  
+**Kind**: Exported function  
+**Returns**: <code>number</code> - The integer remainder.  
 **See**
 
 - [http://www.ecma-international.org/ecma-262/6.0/#sec-algorithm-conventions](http://www.ecma-international.org/ecma-262/6.0/#sec-algorithm-conventions)

@@ -1,6 +1,6 @@
 /**
  * @file modulo - floored division implementation.
- * @version 1.1.0
+ * @version 1.1.1
  * @author Xotic750 <Xotic750@gmail.com>
  * @copyright  Xotic750
  * @license {@link <https://opensource.org/licenses/MIT> MIT}
@@ -8,11 +8,6 @@
  */
 
 'use strict';
-
-var modulo = function (dividend, divisor) {
-  var remain = dividend % divisor;
-  return Math.floor(remain >= 0 ? remain : remain + divisor);
-};
 
 /**
  * The notation “x modulo y” (y must be finite and nonzero) computes a value k
@@ -24,9 +19,9 @@ var modulo = function (dividend, divisor) {
  * would have the same sign as the divisor. Due to the floor function, the
  * quotient is always rounded downwards, even if it is already negative.
  *
- * @param {number} dividend The integer to find the remainder of.
- * @param {number} divisor The integer to divide by.
- * @return {number} The  integer remainder.
+ * @param {number} dividend - The integer to find the remainder of.
+ * @param {number} divisor - The integer to divide by.
+ * @returns {number} The integer remainder.
  * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-algorithm-conventions}
  * @see {@link https://en.wikipedia.org/wiki/Modulo_operation}
  * @example
@@ -34,4 +29,7 @@ var modulo = function (dividend, divisor) {
  * modulo(1, 0x1000000); // 1
  * modulo(-1, 0x1000000); // 16777215 (2^24-1)
  */
-module.exports = modulo;
+module.exports = function modulo(dividend, divisor) {
+  var remain = dividend % divisor;
+  return Math.floor(remain >= 0 ? remain : remain + divisor);
+};
