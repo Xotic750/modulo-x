@@ -21,15 +21,13 @@
 <a name="module_modulo-x"></a>
 
 ## modulo-x
+
 modulo - floored division implementation.
 
-**Version**: 1.1.1  
-**Author**: Xotic750 <Xotic750@gmail.com>  
-**License**: [MIT](&lt;https://opensource.org/licenses/MIT&gt;)  
-**Copyright**: Xotic750  
 <a name="exp_module_modulo-x--module.exports"></a>
 
 ### `module.exports(dividend, divisor)` ⇒ <code>number</code> ⏏
+
 The notation “x modulo y” (y must be finite and nonzero) computes a value k
 of the same sign as y (or zero) such that abs(k) < abs(y) and x-k = q × y
 for some integer q.
@@ -46,15 +44,16 @@ quotient is always rounded downwards, even if it is already negative.
 - [http://www.ecma-international.org/ecma-262/6.0/#sec-algorithm-conventions](http://www.ecma-international.org/ecma-262/6.0/#sec-algorithm-conventions)
 - [https://en.wikipedia.org/wiki/Modulo_operation](https://en.wikipedia.org/wiki/Modulo_operation)
 
-
-| Param | Type | Description |
-| --- | --- | --- |
+| Param    | Type                | Description                           |
+| -------- | ------------------- | ------------------------------------- |
 | dividend | <code>number</code> | The integer to find the remainder of. |
-| divisor | <code>number</code> | The integer to divide by. |
+| divisor  | <code>number</code> | The integer to divide by.             |
 
-**Example**  
+**Example**
+
 ```js
-var modulo = require('modulo-x');
-modulo(1, 0x1000000); // 1
-modulo(-1, 0x1000000); // 16777215 (2^24-1)
+import modulo from 'modulo-x';
+
+console.log(modulo(1, 0x1000000)); // 1
+console.log(modulo(-1, 0x1000000)); // 16777215 (2^24-1)
 ```

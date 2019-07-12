@@ -1,14 +1,4 @@
-/**
- * @file modulo - floored division implementation.
- * @version 1.1.1
- * @author Xotic750 <Xotic750@gmail.com>
- * @copyright  Xotic750
- * @license {@link <https://opensource.org/licenses/MIT> MIT}
- * @module modulo-x
- */
-
-'use strict';
-
+const {floor} = Math;
 /**
  * The notation “x modulo y” (y must be finite and nonzero) computes a value k
  * of the same sign as y (or zero) such that abs(k) < abs(y) and x-k = q × y
@@ -24,12 +14,9 @@
  * @returns {number} The integer remainder.
  * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-algorithm-conventions}
  * @see {@link https://en.wikipedia.org/wiki/Modulo_operation}
- * @example
- * var modulo = require('modulo-x');
- * modulo(1, 0x1000000); // 1
- * modulo(-1, 0x1000000); // 16777215 (2^24-1)
  */
 module.exports = function modulo(dividend, divisor) {
-  var remain = dividend % divisor;
-  return Math.floor(remain >= 0 ? remain : remain + divisor);
+  const remain = dividend % divisor;
+
+  return floor(remain >= 0 ? remain : remain + divisor);
 };
