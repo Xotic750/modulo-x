@@ -15,8 +15,10 @@ const {floor} = Math;
  * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-algorithm-conventions}
  * @see {@link https://en.wikipedia.org/wiki/Modulo_operation}
  */
-module.exports = function modulo(dividend, divisor) {
+const modulo = function modulo(dividend, divisor) {
   const remain = dividend % divisor;
 
   return floor(remain >= 0 ? remain : remain + divisor);
 };
+
+export default modulo;

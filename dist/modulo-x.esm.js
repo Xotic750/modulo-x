@@ -16,9 +16,11 @@ var floor = Math.floor;
  * @see {@link https://en.wikipedia.org/wiki/Modulo_operation}
  */
 
-module.exports = function modulo(dividend, divisor) {
+var modulo = function modulo(dividend, divisor) {
   var remain = dividend % divisor;
   return floor(remain >= 0 ? remain : remain + divisor);
 };
+
+export default modulo;
 
 //# sourceMappingURL=modulo-x.esm.js.map

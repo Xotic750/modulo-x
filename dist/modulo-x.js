@@ -2,11 +2,11 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-07-16T20:53:49.895Z",
+  "date": "2019-07-17T12:57:03.047Z",
   "describe": "",
   "description": "modulo - floored division implementation.",
   "file": "modulo-x.js",
-  "hash": "77bbff44c72feb821da4",
+  "hash": "9ef0af63e8959c37986a",
   "license": "MIT",
   "version": "2.0.6"
 }
@@ -125,8 +125,10 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 var floor = Math.floor;
 /**
  * The notation “x modulo y” (y must be finite and nonzero) computes a value k
@@ -145,10 +147,12 @@ var floor = Math.floor;
  * @see {@link https://en.wikipedia.org/wiki/Modulo_operation}
  */
 
-module.exports = function modulo(dividend, divisor) {
+var modulo = function modulo(dividend, divisor) {
   var remain = dividend % divisor;
   return floor(remain >= 0 ? remain : remain + divisor);
 };
+
+/* harmony default export */ __webpack_exports__["default"] = (modulo);
 
 
 
