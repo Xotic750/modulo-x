@@ -2,13 +2,13 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-07-18T15:52:19.579Z",
+  "date": "2019-07-18T16:29:47.252Z",
   "describe": "",
   "description": "modulo - floored division implementation.",
   "file": "modulo-x.js",
   "hash": "9ef0af63e8959c37986a",
   "license": "MIT",
-  "version": "2.0.10"
+  "version": "2.0.11"
 }
 */
 (function webpackUniversalModuleDefinition(root, factory) {
