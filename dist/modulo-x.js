@@ -2,7 +2,7 @@
 {
   "author": "Graham Fairweather",
   "copywrite": "Copyright (c) 2017",
-  "date": "2019-09-04T22:29:15.442Z",
+  "date": "2019-09-05T18:33:35.079Z",
   "describe": "",
   "description": "modulo - floored division implementation.",
   "file": "modulo-x.js",
